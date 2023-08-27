@@ -6,11 +6,15 @@
     <title>Document</title>
     <style>
         h1 {
-            color:aquamarine;
+            color:rgb(8, 41, 30);
             font-family: cursive;
+            font-style: italic;
         }
         h3{
             background-color: rgb(119, 75, 161);
+            display: inline-block;
+            border-radius: 14px;
+            padding: 4px;
         }
 
         p {
@@ -23,20 +27,23 @@
     <h1>...Çikolata Küpleri...</h1>
 
     <!-- header açıklama -->
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, nisi praesentium inventore in quisquam atque sint ullam quasi corrupti perferendis quidem accusantium laudantium cupiditate modi porro, voluptates sapiente quas reprehenderit nulla eum distinctio explicabo maxime fugit! Explicabo perferendis neque doloribus.</p>
+    <p> <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, nisi praesentium inventore in quisquam atque sint ullam quasi corrupti perferendis quidem accusantium laudantium cupiditate modi porro, voluptates sapiente quas reprehenderit nulla eum distinctio explicabo maxime fugit! Explicabo perferendis neque doloribus.</b></p>
 
     <!-- tarifi yazan kişi -->
-    <p>Tarif: Taner Can Aktürk</p>
+    <p> <b>Tarif:</b> Taner Can Aktürk</p>
 
     <!-- kişi sayısı süre  -->
     <div>
         <p style="text-align: center;">
-             <u>Kaç Kişilik :4kişilik  Hazırlama Süresi:30 dakika  Pişirme Süresi:10 dakika</u>
+             <u> <b style="color: red;"> Kaç Kişilik :</b> 4kişilik 
+                <b style="color: red;"> Hazırlama Süresi:</b>30 dakika  
+                <b style="color: red;">Pişirme Süresi:</b>10 dakika
+            </u>
         </p>
     </div>
     <!-- malzeme listesi ve hazırlama tarifi -->
-
-    <div style="text-align: center;">
+<div style="display: flex; justify-content: center;">
+    <div>
         <h3>Çikolata Küpleri Tarifi için Malzemeler.</h3>
 
         <ul>
@@ -56,9 +63,12 @@
             <li>Lorem ipsum dolor sit.</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
         </ol>
+        <h2 style="text-align:right">Afiyet olsun</h2>
     </div>
+    
+</div>
 
-    <h2 style="text-align:right">Afiyet olsun</h2>
+    
 
 </body>
 </html>
